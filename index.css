@@ -1,0 +1,61 @@
+#trang,
+#btn-reset,
+#btn-check {
+  text-align: center;
+  width: fit-content;
+  padding: 5px;
+  border: 1px solid #8f8f8f;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxchat,#phong {
+  margin-left: 10px;
+  width:20%;
+  
+}
+#outroom {
+  display: none;
+}
+tr>td {
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgb(225, 225, 225);
+  background: #f1f1f1;
+  cursor: pointer;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+
+.player1 tr>td:hover {
+  background: #FF7F7FFF;
+  transition-duration: 0.1s;
+}
+
+.player2 tr>td:hover {
+  background: #7FFF8EFF;
+  transition-duration: 0.1s;
+}
+
+
+
+ul {
+  overflow-y: scroll;
+  list-style-type: none;
+  height:50vh;
+}
+
+h3{
+  text-align: center;
+} 
+
+.text{
+  width:100%;
+  margin-bottom: 5px;
+}
